@@ -1,0 +1,2 @@
+# agif
+AGif (Ascii Gif) 
