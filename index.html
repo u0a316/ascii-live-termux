@@ -1,5 +1,5 @@
 # <!DOCTYPE html><html lang="en"><head><title>Luisadha Homepage</title><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /></head><body><h2> downloading... </h2>
 
 curl -s https://api.github.com/repos/hugomd/ascii-live/contents/frames | jq -r '.[].name' | sed 's/^/curl ascii.live\//' | awk -F'.go' '{print $1}' | shuf -n 1 | termux-clipboard-set
-$(termux-clipboard-get)
+
 # </body></html>
