@@ -4,5 +4,5 @@ AGif (Ascii Gif)
 ━━━━━━━━━━━━━━━━━━━
 
 ```bash
-. <(curl https://raw.githubusercontent.com/luisadha/agif/refs/heads/main/index.html)
+. <(curl https://raw.githubusercontent.com/luisadha/agif/refs/heads/main/index.html) && $(termux-clipboard-get)
 ```
