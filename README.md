@@ -6,7 +6,7 @@ Any animations you want to add are welcome! 🎉
 
 Try it out in your TERMUX:
 ```bash
-. <(curl https://raw.githubusercontent.com/luisadha/ascii-live-termux/refs/heads/main/index.html) && $(termux-clipboard-get)
+. <(curl luisadha.github.io/ascii-live-termux) && $(termux-clipboard-get)
 
 ```
 
