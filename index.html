@@ -1,5 +1,3 @@
 # <!DOCTYPE html><html lang="en"><head><title>404 Not Found</title><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />  <meta http-equiv="refresh" content="0; URL='https://raw.githubusercontent.com/luisadha/ascii-live-termux/refs/heads/main/index.html'" /></head><body><h2> {"error":"Frames not found. Navigate to /list for list of frames. Navigate to https://github.com/hugomd/ascii-live to submit new frames."} </h2>
-
 curl -s https://api.github.com/repos/hugomd/ascii-live/contents/frames | jq -r '.[].name' | sed 's/^/curl ascii.live\//' | awk -F'.go' '{print $1}' | shuf -n 1 | termux-clipboard-set
-
 # </body></html>
