@@ -1,4 +1,4 @@
-# ascii.live-termux
+# ascii.live-termux fork form github.com/hugomd/parrot.live
 
 A fork project for hosting curl-based animations, all in one place, and a follow up to [`parrot.live`](https://github.com/hugomd/parrot.live).
 
