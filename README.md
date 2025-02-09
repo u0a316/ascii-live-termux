@@ -6,8 +6,7 @@ Any animations you want to add are welcome! 🎉
 
 Try it out in your TERMUX:
 ```bash
-. <(curl -L https://luisadha.github.io/ascii-live-termux) && $(termux-clipboard-get)
-
+. <(curl -L https://luisadha.github.io/ascii-live-termux)
 ```
 
 <img src="./demo.gif" width="400"/>
