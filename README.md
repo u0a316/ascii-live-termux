@@ -8,6 +8,9 @@ Try it out in your TERMUX:
 ```bash
 . <(curl -L https://luisadha.github.io/ascii-live-termux)
 ```
+You're in luck if you get a "nyan" endpoint.
+
+[Live demo here](https://u0a316.github.io/u0a316)
 
 <img src="./demo.gif" width="400"/>
 
